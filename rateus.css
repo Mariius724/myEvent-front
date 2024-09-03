@@ -1,0 +1,76 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgb(57, 129, 143);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.rating-container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.rating-options {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+
+.rating button {
+    text-align: block;
+    background-color: #e7943f;
+    margin: 2%;
+    padding: 0%;
+    width: 40%;
+    height: 4vh;
+    border-radius: 5px;
+}
+
+.comment-box {
+    margin-top: 15px;
+}
+.comment-box textarea {
+    width: 90%;
+    padding: 10px;
+    border-radius: 5px;
+    border: black;
+    resize: none;
+    background-color: rgb(187, 196, 196);
+    height: 4vh;
+}
+.rating {
+    margin-top: 8px;
+    width: 15cm;
+}
+.message{
+    margin-top: 15px;
+    font-weight: bold;
+    color: green;
+    border-radius: 20px;
+    padding: 5%;
+    width: 20%;
+    height: 6vh;
+    margin-left: 1cm;
+    
+}
+.rating-container h2 {
+    color: #e7943f;
+    font-size: xx-large;
+    margin-top: 0.5cm;
+}
+.rating label{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 0.5cm;
+}
+.rating-container img{
+    height: 12vh;
+    width: 2.3cm;
+    border-radius: 50px;
+}
