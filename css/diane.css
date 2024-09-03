@@ -214,14 +214,6 @@ body {
    
   }
 
-  
-
-
-
-
-
-
-
 
 .service .box-container .box i{
         height: 6rem;
@@ -267,18 +259,18 @@ h1 {
 .info-section {
     display: flex;
     justify-content: space-between;
-    flex-wrap: wrap; /* allows wrapping on smaller screens */
+    flex-wrap: wrap; 
 }
 
 .box {
-    flex: 1; /* allows boxes to grow */
-    min-width: 20px; /* ensures a minimum width */
+    flex: 1; 
+    min-width: 20px; 
     margin: 10px;
     padding: 20px;
     background: #444;
     border-radius: 5px;
-    text-decoration: none; /* removes underline from links */
-    color: #333; /* text color */
+    text-decoration: none; 
+    color: #333; 
     transition: box-shadow 0.3s ease;
 }
 
@@ -287,7 +279,7 @@ h1 {
 }
 
 h2 {
-    color: #007bff; /* header color */
+    color: #007bff; 
 }
 
 
@@ -571,72 +563,9 @@ h2 {
    .footer .credit span{
     color: var(--main-color );
    }
-   /*
-   .theme-toggler{
-    position: fixed;
-    top: 10rem; right: -20rem;;
-    background: #333;
-    z-index: 1000;
-    width:20rem;
-    text-align: center;
-   }
-
-   .theme-toggler .active{
-    right: 0;
-   }
-
-   .theme-toggler h3{
-    color: #fff;
-    padding: 1rem 0;
-    font-size: 2rem;
-   }
-
-   .theme-toggler .buttons{
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    gap: 1rem;
-    padding: 1rem;
-   }
-
-   
-   .theme-toggler .buttons .theme-btn{
-    height: 5rem;
-    width: 5rem;
-    border-radius: 50%;
-    cursor: pointer;
-   }
-
-   .theme-toggler .toggle-btn{
-    position: absolute;
-    top: 0; left: -5.9rem;
-    padding: 1.3rem 1.5rem;
-    background: #333;
- 
-   }
- .theme-toggler .toggle-btn i{
-  color: #fff;
-  font-size: 3rem;
-  animation: spin 4s linear infinite;
-   }
-
-   @keyframes spin {
-    0%{
-        transform: rotate(360deg);
-    }
-   }
-   */
+  
 
 
-
-
-
-
-
-
-
-
-/* media queries */
 @media (max-width:991px){
     hmtl{
         font-size: 55%
