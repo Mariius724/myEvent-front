@@ -20,8 +20,8 @@
 
 html{
     font-size: 62.5%;
-    overflow: hidden;
-    scroll-behavior: 7rem;
+    overflow: scroll;
+     scroll-behavior: 7rem; 
     scroll-behavior: smooth;
 }
 
@@ -40,6 +40,7 @@ html::-webkit-scrollbar-track{
 
 body{
     background: #E7943F;
+    scroll-behavior: smooth;
 }
 
 section{
@@ -138,8 +139,8 @@ max-width: 70rem;
      height: 50rem;
      width: 35rem;
     } 
- /*
-{ overflow: hidden;
+/*
+ {overflow: hidden;
     border-radius: 5rem;
     height: 50rem;
     width: 35rem;
@@ -165,6 +166,61 @@ max-width: 70rem;
     padding: 2.5rem;
 }
 */
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .services-section {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 50px 20px;
+  }
+  
+  .services-section h2 {
+    margin-bottom: 40px;
+    font-size: 36px;
+  }
+  
+  .service-card {
+    display: inline-block;
+    background-color: #444;
+    margin: 10px;
+    padding: 20px;
+    width: calc(30% - 40px);
+    color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);  
+  }
+  
+  .service-card .icon {
+    font-size: 40px;
+    margin-bottom: 10px;
+  }
+  
+  .service-card h3 {
+    margin-top: 10px;
+    font-size: 24px;
+    text-transform: uppercase;
+  }
+  
+  .service-card p {
+    font-size: 20px;
+   
+  }
+
+  
+
+
+
+
+
+
 
 
 .service .box-container .box i{
@@ -200,6 +256,7 @@ body {
     background: white;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    
 }
 
 h1 {
@@ -569,29 +626,6 @@ h2 {
     }
    }
    */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
