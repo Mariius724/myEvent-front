@@ -1,0 +1,64 @@
+.{
+    padding: 0;
+    box-sizing: border-box;
+    margin: 0;
+}
+.card{
+     height:350px;
+     width: 240px;
+     border-radius: 2rem;
+     background-color:white;
+     padding: 1rem;
+     margin-left: 1500px;
+     position: fixed; 
+} 
+body{
+    position: fixed;
+    align-items: center;
+    display: flex;
+    margin: top 1px;
+    justify-content: center;
+    height: 100vh;
+    background:rgb(57, 129, 143);
+    
+    }
+    .card-sart1{
+      margin-left: 75px;
+        display: flex;
+        color:rgb(57, 129, 143);
+    }
+    .card-start4{
+         display: flex;
+         margin-left: 30px;
+         border-radius: 4rem;
+         }
+         .card-start4 button {
+            background:rgb(57, 129, 143);
+            margin-left: 80%;
+            height: 0.7cm;
+            width: 10VH;
+
+         }
+     .card-start5{
+        margin-left: 30px;
+     }
+     .card-box{
+        background-color:rgb(167, 165, 165);
+        display: flex;
+        width: 95%;
+        height: 4%;
+        margin-left: 2px;
+     }
+     .card-boss{
+        background-color:rgb(167, 165, 165);
+        display: flex;
+        width: 95%;
+        height: 4%;
+        margin-left: 2px;
+     }
+     .card-33{
+        background-color: rgb(197, 205, 210);
+     }
+     
+     
+     
