@@ -2,14 +2,14 @@
 /*
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 */
-<link url (<href rel="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">);
+<link rel="stylesheet"( <href rel="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap">);
 
 :root{
     --main-color:#3867d6;
 }
 
 *{
-    font-family: 'Nunito', sans-serif;
+    font-family: 'Nunito', sans-serif; 
     margin: 0; padding: 0;
     box-sizing: border-box;
     outline: none; border: none;
@@ -39,7 +39,7 @@ html::-webkit-scrollbar-track{
 }
 
 body{
-    background: #E7943F;
+    background: #444;
     scroll-behavior: smooth;
 }
 
@@ -80,11 +80,11 @@ section{
     position: fixed;
     top: 0; left: 0; right: 0;
     z-index: 10000;
-    background: #333;
+    background: #BFBCCB;
     display: fixed;
     align-items: center;
     justify-content: space-between;
-    padding: 1.5rem 9%;
+    padding: 1rem 9%;
 }
 
 .header .logo{
@@ -98,7 +98,7 @@ section{
 }
 
 .header .navbar{
-    font-size: 1,7rem;
+    font-size: 1.5rem;
     color: #fff;
     margin-left: 40rem;
      
@@ -110,7 +110,7 @@ section{
 
 #menu-bars{
     font-size: 3rem;
-    color: #fff;
+    color: white;
     cursor: pointer;
     display: none;
     display: none;
@@ -147,6 +147,43 @@ max-width: 70rem;
     
 }
 */
+
+
+/*
+body {
+    position: relative;
+    height: 100%;
+  }
+
+  body {
+    background: #eee;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color: #000;
+    margin: 0;
+    padding: 0;
+  }
+
+  .swiper {
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+  .swiper-slide {
+    background-position: center;
+    background-size: cover;
+    width: 300px;
+    height: 300px;
+  }
+
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+  }
+*/
+
+
 .home .home-slider .swiper-slide img{
     height: 100%;
     width: 100%;
@@ -237,7 +274,7 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: rgb(57, 129, 143);
+    background-color: #DCCCA3;
 }
 
 .container {
@@ -518,7 +555,7 @@ h2 {
   } 
 
  .footer{
-   background: #111; 
+   background: #;
  }
  
  .footer .box-container{
@@ -571,7 +608,7 @@ h2 {
         font-size: 55%
     }
     .header{
-        padding: 1.5rem 2rem;
+        padding: 1rem 1rem;
     } 
 
     section{
