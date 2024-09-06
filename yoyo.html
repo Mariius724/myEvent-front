@@ -89,23 +89,17 @@ content="width=device-width,,initial scale=1.0">
             <img src="IMG-20240822-WA0017.png " alt=" event image" class="eventimage">
             <h1>CREATE YOUR EVENT</h1>
             <form id="event-form">
-                <label for="start-date">Start date:</label>
-                <input type="date" id="start-date" name="start-date" required>
-
-                <label for="start-time">Start Time:</label>
-                <input type="time" id="start-time" name="start-time" required>
-
-                <label for="end-date">End Date:</label>
-                <input type="date" id="end-date" name="end date" required>
-
-                <label for="end-time">End Time:</label>
-                <input type="time" id="end-time" name="end time" required>
-
-                <label for="location">location:</label>
-                <input type="text" id="location" name="location" required>
+                <label for="title">Title:</label>
+                <input type="text" id="title" name="title" required>
 
                 <label for="description">Description:</label>
-                <textarea id="description" name="description" rows="5" required></textarea>
+                <textarea id="description" name="description" rows="3" required></textarea>
+
+                <label for="location">location:</label>
+                <input type="text" id="location" name="location"required>
+
+                <label for="start time">Start Time:</label>
+                <input type="date" id="start-time" name="start-time" required>
 
                 <button type="submit">CREATE EVENT</button>
                 </form>
@@ -118,21 +112,17 @@ content="width=device-width,,initial scale=1.0">
             {
                 event.preventDefault();
 
-                const startDate =document.getElementById('start-date').value;
-                const startTime =document.getElementById('start-time').value;
-                const endDate =document.getElementById('end-date').value;
-                const endTime =document.getElementById('end-time').value;
+                const title=document.getElementById('title').value;
+                const startTime =document.getElementById('description').value;
                 const location =document.getElementById('location').value;
-                const description =document.getElementById('description').value;
+                const description =document.getElementById('start-time').value;
                 
                 // you can add code here to save the event data to a database or display it on the page
                 console.log('Event Created:');
-                console.log('Start Date:', startDate);
-                console.log('Start Time:', startTime);
-                console.log('End Date:', endDate);
-                console.log('End Time:', endTime);
-                console.log('Location:', location);
+                console.log('title:', title);
                 console.log('Description:', description);
+                console.log('Location:', location);
+                console.log('Start Time:', startime);
                 
                 //Clear the form
                 form.reset();
